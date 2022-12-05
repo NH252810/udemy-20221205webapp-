@@ -1,0 +1,16 @@
+Githubにて
+  Repositories Newボタンで新たに作成、Public, creatで作成されたURLをコピーしておく
+requirments.textファイルを作成
+ streamlitと記載
+ ターミナルでpip freezeでstreamlitのバージョンが分かるので入れておいてもOK
+vscodeターミナルで
+  git init（gitの初期化）
+  git remote add origin + Fithubで作成されたURL
+  git add .
+  git commit -m'1st commit'
+  git push origin master
+とするとgithubにプッシュされる（リロード）
+
+stremalitsharingで
+ App 追加でDeploy
+ Main file pathはメインのファイル
